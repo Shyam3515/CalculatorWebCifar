@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap');
+body{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(18, 26, 31);
+}
+section{
+    height:100vh;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 90%;
+    max-width: 380px;
+    background-color: rgb(39, 55, 59);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+.display {
+    background-color: rgb(182, 182, 182);
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    /* padding: 20px; */
+    font-size: 30px;
+    position: relative;
+}
+.display-1 {
+padding: 20px;
+opacity: 0.5;
+font-size: 20px;
+height: 20px;
+overflow: hidden;
+}
+.display-2 {
+padding-right: 20px;
+font-weight: 600;
+overflow: hidden;
+}
+.temp-result{
+position: absolute;
+left:10px;
+bottom: 6px;
+font-size: 20px;
+opacity: 0.5;
+}
+.all-buttons{
+    color:whitesmoke;
+    display:grid;
+    grid-template: repeat(4,1fr)/repeat(4,1fr);
+
+}
+.button{
+    height:80px;
+    width:100%;
+    border:.5px solid rgba(92, 92, 92, .134);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(18, 26, 31,0.4);
+}
+.btn-z{
+    grid-column: 1/3;
+}
